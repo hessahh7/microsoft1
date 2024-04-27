@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candy Shop</title>
+    <style>
+        /* Global styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        /* Header styles */
+        header {
+            background-color: #ffcc99;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #333;
+        }
+        /* Navigation bar styles */
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #666;
+        }
+        /* Candy image and description styles */
+        .candy-section {
+            display: flex;
+            align-items: center;
+            margin: 40px 0;
+        }
+        .candy-image {
+            flex: 1;
+            max-width: 400px;
+        }
+        .candy-description {
+            flex: 2;
+            padding: 0 20px;
+        }
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Candy Shop!</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Candies</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <section class="candy-section">
+            <img class="candy-image" src="candy.jpg" alt="Assorted candies">
+            <div class="candy-description">
+                <h2>Delicious Candies</h2>
+                <p>Explore our wide selection of mouthwatering candies. From gummy bears to chocolate truffles, we have it all!</p>
+                <button onclick="showMoreInfo()">Learn More</button>
+            </div>
+        </section>
+    </div>
+    <footer>
+        © 2024 Candy Shop. All rights reserved.
+    </footer>
+    <script>
+        function showMoreInfo() {
+            // Add your JavaScript logic here
+            alert("More candy details coming soon!");
+        }
+    </script>
+</body>
+</html>
